@@ -3,10 +3,12 @@ public class PolarBear extends Mammal implements IRegenerate{
         super(name, health, attackDamage);
     }
 
+
     @Override
     public int regenerate(Mammal mammal, int amount) {
-
-        mammal.health += amount;
+        return 0;
     }
 
+    // regen is blank because I was wanting to make a method of regen that could only be called
+    // on the tiger and the polar bear but not the buffalo ally said it would be inher chain hell lol
 }
