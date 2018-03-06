@@ -8,7 +8,7 @@ public class BuffaloTest {
 
     @Before
     public void setUp() throws Exception {
-        buffalo = new Buffalo("Thunder Hoof", 500, AttackDamage.BUFFALO);
+        buffalo = new Buffalo("Thunder Hoof", 500, 20);
     }
 
     @Test

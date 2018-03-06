@@ -8,7 +8,7 @@ public class TigerTest {
 
     @Before
     public void setUp() throws Exception {
-        tiger = new Tiger("Khan", 200, AttackDamage.TIGER);
+        tiger = new Tiger("Khan", 200, 40);
     }
 
     @Test

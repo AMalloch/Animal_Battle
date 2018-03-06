@@ -1,5 +1,5 @@
 public class PolarBear extends Mammal implements IRegenerate{
-    public PolarBear(String name, int health, AttackDamage attackDamage) {
+    public PolarBear(String name, int health, int attackDamage) {
         super(name, health, attackDamage);
     }
 

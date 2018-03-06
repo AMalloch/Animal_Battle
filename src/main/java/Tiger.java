@@ -1,5 +1,5 @@
 public class Tiger extends Mammal implements IRegenerate {
-    public Tiger(String name, int health, AttackDamage attackDamage) {
+    public Tiger(String name, int health, int attackDamage) {
         super(name, health, attackDamage);
     }
 

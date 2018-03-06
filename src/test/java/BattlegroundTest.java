@@ -10,9 +10,9 @@ public class BattlegroundTest {
 
     @Before
     public void setUp() throws Exception {
-        this.polarBear = new PolarBear("White Walker", 300, AttackDamage.POLARBEAR);
-        tiger = new Tiger("Khan", 200, AttackDamage.TIGER);
-        buffalo = new Buffalo("Thunder Hoof", 500, AttackDamage.BUFFALO);
+        this.polarBear = new PolarBear("White Walker", 300, 25);
+        tiger = new Tiger("Khan", 200, 40);
+        buffalo = new Buffalo("Thunder Hoof", 500, 20);
     }
 
     @Test

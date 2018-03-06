@@ -1,9 +1,9 @@
 public abstract class Mammal {
     private String name;
     private int health;
-    private AttackDamage attackDamage;
+    private int attackDamage;
 
-    public Mammal(String name, int health, AttackDamage attackDamage) {
+    public Mammal(String name, int health, int attackDamage) {
         this.name = name;
         this.health = health;
         this.attackDamage = attackDamage;
@@ -17,8 +17,12 @@ public abstract class Mammal {
         return health;
     }
 
-    public AttackDamage getAttackDamage() {
+    public int getAttackDamage() {
         return attackDamage;
+    }
+
+    public void canAttack(Mammal mammal){
+        mammal.health -= this.attackDamage;
     }
 
 }
