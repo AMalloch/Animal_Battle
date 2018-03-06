@@ -30,4 +30,10 @@ public class PolarBearTest {
         assertEquals(475, buffalo.getHealth());
     }
 
+    @Test
+    public void canRegenerate(){
+        polarbear.regenerate(polarbear, 10);
+        assertEquals(310, polarbear.getHealth());
+    }
+
 }

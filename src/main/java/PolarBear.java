@@ -4,7 +4,9 @@ public class PolarBear extends Mammal implements IRegenerate{
     }
 
     @Override
-    public int regenerate(int amount) {
-        return 0;
+    public int regenerate(Mammal mammal, int amount) {
+
+        mammal.health += amount;
     }
+
 }
