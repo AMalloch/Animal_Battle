@@ -36,4 +36,9 @@ public class PolarBearTest {
         assertEquals(310, polarbear.getHealth());
     }
 
+    @Test
+    public void canRoar(){
+        assertEquals("Hear me roar!", polarbear.roar("roar!"));
+    }
+
 }

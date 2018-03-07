@@ -28,4 +28,9 @@ public class TigerTest {
         tiger.canAttack(buffalo);
         assertEquals(460, buffalo.getHealth());
     }
+
+    @Test
+    public void canRoar(){
+        assertEquals("Hear me roar!", tiger.roar("roar!"));
+    }
 }
